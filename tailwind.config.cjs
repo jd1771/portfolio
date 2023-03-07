@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         primary: "#071013",
         secondary: "#FBFBFB",
+        cyan: "#23b5d3",
+        moonstone: "#75ABBC",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
@@ -15,4 +17,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

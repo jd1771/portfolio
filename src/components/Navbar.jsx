@@ -6,8 +6,8 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <nav className="relative mb-3 flex flex-wrap items-center justify-between bg-primary p-6 text-secondary">
-      <div className="cursor-pointer rounded-sm border-2 border-secondary p-2 text-center">
+    <nav className="relative mb-3 flex flex-wrap items-center justify-between p-6 text-white">
+      <div className="cursor-pointer rounded-sm border-2 border-white p-2 text-center">
         <h1>JD</h1>
       </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
       <div
         className={
           mobileNav
-            ? "fixed top-0 left-0 flex h-full w-1/2 flex-col items-center justify-center bg-primary duration-300 ease-in-out md:hidden"
+            ? "fixed top-0 left-0 flex h-full w-1/2 flex-col items-center justify-center bg-black duration-300 ease-in-out md:hidden"
             : "fixed left-[-100%]"
         }
       >

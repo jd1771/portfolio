@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#071013",
-        secondary: "#FBFBFB",
+        primary: "#00df9a",
+        secondary: "#75ABBC",
         cyan: "#23b5d3",
         moonstone: "#75ABBC",
         dimWhite: "rgba(255, 255, 255, 0.7)",

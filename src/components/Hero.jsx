@@ -2,12 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-white">
-      <div className="mx-auto mt-[-200px] flex h-screen w-full max-w-[600px] flex-col justify-center text-center">
+    <div className="mt-[13rem] text-white">
+      <div className="mx-auto flex w-full max-w-[600px] flex-col justify-center text-center">
         <h1 className="p-2 text-4xl font-bold text-white">
           Welcome <span>👋</span> I'm
         </h1>
-        <h1 className="p-2 text-5xl font-bold text-primary">Jas Dhaul</h1>
+        <h1 className="p-2 text-5xl font-bold text-moonstone">Jas Dhaul</h1>
         <p className="p-2 text-xl text-[#949494]">
           I am a{" "}
           <span className="text-white"> full-stack software developer</span>{" "}

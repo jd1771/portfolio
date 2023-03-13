@@ -17,9 +17,6 @@ const Navbar = () => {
             About
           </li>
           <li className="link-underline m-3 cursor-pointer text-lg underline-offset-4">
-            Experience
-          </li>
-          <li className="link-underline m-3 cursor-pointer text-lg underline-offset-4">
             Projects
           </li>
           <li className="link-underline m-3 cursor-pointer text-lg underline-offset-4">

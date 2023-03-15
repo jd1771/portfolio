@@ -5,6 +5,8 @@ export default [
     title: "lorem ipsum",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    github: "www.google.com",
+    deployment: "www.google.com",
   },
   {
     id: 1,
@@ -12,6 +14,8 @@ export default [
     title: "lorem ipsum",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    github: "www.google.com",
+    deployment: "www.google.com",
   },
   {
     id: 2,
@@ -19,6 +23,8 @@ export default [
     title: "lorem ipsum",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    github: "www.google.com",
+    deployment: "www.google.com",
   },
   {
     id: 3,
@@ -26,5 +32,7 @@ export default [
     title: "lorem ipsum",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+    github: "www.google.com",
+    deployment: "www.google.com",
   },
 ];

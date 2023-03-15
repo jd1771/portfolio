@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <div className="text-white">
       <div className="mx-auto w-1/2">
-        <h1 className="text-2xl font-bold text-cyan">Some of My Work</h1>
+        <h1 className="text text-2xl font-bold text-cyan">Some of My Work</h1>
         <div className="relative mt-10 grid grid-cols-2 gap-10">{cards}</div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className="p-2 text-4xl font-bold text-white">
           Welcome <span>👋</span> I'm
         </h1>
-        <h1 className="p-2 text-5xl font-bold text-moonstone">Jas Dhaul</h1>
+        <h1 className="p-2 text-5xl font-bold text-cyan">Jas Dhaul</h1>
         <p className="p-2 text-xl text-[#949494]">
           I am a{" "}
           <span className="text-white"> full-stack software developer</span>{" "}

@@ -8,7 +8,7 @@ const Footer = () => {
       <p className="text-md">Made with ❤️ by Jas Dhaul</p>
       <div className="flex items-center justify-center gap-x-5">
         <a
-          href="https://www.linkedin.com/in/jas-dhaul/"
+          href="https://www.linkedin.com/in/jas-dhaul-90b0181aa/"
           target="_blank"
           rel="noreferrer"
         >

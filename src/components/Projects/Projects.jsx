@@ -3,15 +3,15 @@ import Card from "./Card";
 import data from "./data";
 
 const Projects = () => {
-  const cards = data.map((item) => {
+  const cards = data.map((project) => {
     return (
       <Card
-        key={item.id}
-        img={item.img}
-        title={item.title}
-        description={item.description}
-        github={item.github}
-        deployment={item.deployment}
+        key={project.id}
+        img={project.img}
+        title={project.title}
+        description={project.description}
+        github={project.github}
+        deployment={project.deployment}
       />
     );
   });
@@ -19,7 +19,9 @@ const Projects = () => {
   return (
     <div className="text-white">
       <div className="mx-auto w-1/2">
-        <h1 className="text text-2xl font-bold text-cyan">Some of My Work</h1>
+        <h1 className="title-font mb-4 text-3xl font-medium text-cyan sm:text-4xl">
+          Some of My Work
+        </h1>
         <div className="grid-col-1 mt-10  grid gap-10 md:grid-cols-2">
           {cards}
         </div>

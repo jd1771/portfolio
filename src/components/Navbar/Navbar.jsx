@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="relative mb-3 flex flex-wrap items-center justify-between p-6 text-white">
       <div className="cursor-pointer rounded-sm border-2 border-white p-2 text-center">
-        <h1>JD</h1>
+        <h1 className="text-[1.5rem]">JD</h1>
       </div>
 
       <div className="hidden items-center justify-center md:flex">

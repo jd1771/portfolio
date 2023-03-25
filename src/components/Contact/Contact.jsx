@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div className="w-100 mt-10 flex h-[700px] flex-col items-center justify-around bg-[#191B1B] text-white md:h-[600px] md:flex-row">
       <div className="mt-5 flex flex-col text-left">
-        <h1 className="text text-left text-3xl font-bold text-cyan">
+        <h1 className="title-font mb-4 text-left text-3xl font-medium text-cyan sm:text-4xl">
           Let's get in touch
         </h1>
         <p className="mt-3 max-w-sm text-left text-xl">
@@ -32,7 +32,7 @@ const Contact = () => {
 
       <form
         className=" flex flex-col gap-2 text-black"
-        onSubmit={handleFormChange}
+        onSubmit={handleFormSubmit}
       >
         <div className="flex flex-col gap-2 text-white">
           <p>Name</p>

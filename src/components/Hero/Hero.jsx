@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="mx-auto mt-[-150px] mb-[75px] flex h-screen w-full flex-col justify-center bg-[url('/assets/forest.jpg')] bg-cover text-center text-white">
+    <div
+      className="mx-auto mt-[-150px] mb-[75px] flex h-screen w-full flex-col justify-center bg-[url('/assets/forest.jpg')] bg-cover text-center text-white"
+      id="hero"
+    >
       <h1 className="p-2 text-4xl font-bold text-white">
         Welcome <span>👋</span> I'm
       </h1>

@@ -19,7 +19,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-100 mt-10 flex h-[700px] flex-col items-center justify-around bg-[#191B1B] text-white md:h-[600px] md:flex-row">
+    <div
+      className="w-100 mt-10 flex h-[700px] flex-col items-center justify-around bg-[#191B1B] text-white md:h-[600px] md:flex-row"
+      id="contact"
+    >
       <div className="mt-5 flex flex-col text-left">
         <h1 className="title-font mb-4 text-left text-3xl font-medium text-cyan sm:text-4xl">
           Let's get in touch

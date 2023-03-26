@@ -7,7 +7,7 @@ const Skills = () => {
   });
 
   return (
-    <div className="container mx-auto mt-10 px-5 py-10">
+    <div className="container mx-auto mt-10 px-5 py-10" id="skills">
       <div className="mb-20 text-center">
         <h1 className="title-font mb-4 text-3xl font-medium text-cyan sm:text-4xl">
           Skills &amp; Technologies

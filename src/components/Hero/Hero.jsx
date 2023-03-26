@@ -17,8 +17,11 @@ const Hero = () => {
         <span className="text-white">University of Victoria</span>. Scroll below
         to learn more about me.
       </p>
-      <button className="mx-auto mt-4 w-[160px] rounded border border-cyan p-3 outline-none transition-all duration-150 ease-linear hover:bg-moonstone hover:text-white focus:outline-none active:bg-pink-600">
-        Get in touch
+      <button
+        onClick={() => window.open("https://calendly.com/jasdhaul0", "_blank")}
+        className="mx-auto mt-4 w-[160px] rounded border border-cyan p-3 outline-none transition-all duration-150 ease-linear hover:bg-moonstone hover:text-white focus:outline-none active:bg-pink-600"
+      >
+        Book a meeting
       </button>
     </div>
   );

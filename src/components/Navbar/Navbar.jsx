@@ -14,22 +14,22 @@ const Navbar = () => {
 
       <div className="hidden items-center justify-center md:flex">
         <ul className="flex list-none flex-row p-2">
-          <li className="Link-underline m-3 cursor-pointer text-lg underline-offset-4">
+          <li className="m-3 cursor-pointer text-lg delay-75 hover:text-moonstone">
             <Link to="hero" spy={true} smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li className="Link-underline m-3 cursor-pointer text-lg underline-offset-4">
+          <li className="m-3 cursor-pointer text-lg delay-75 hover:text-moonstone">
             <Link to="projects" spy={true} smooth={true} duration={500}>
               Projects
             </Link>
           </li>
-          <li className="Link-underline m-3 cursor-pointer text-lg underline-offset-4">
+          <li className="m-3 cursor-pointer text-lg delay-75 hover:text-moonstone">
             <Link to="skills" spy={true} smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li className="Link-underline m-3 cursor-pointer text-lg underline-offset-4">
+          <li className="m-3 cursor-pointer text-lg delay-75 hover:text-moonstone">
             <Link to="contact" spy={true} smooth={true} duration={500}>
               Contact
             </Link>

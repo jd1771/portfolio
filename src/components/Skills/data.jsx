@@ -31,4 +31,12 @@ export default [
     id: 8,
     skill: "HTML/CSS",
   },
+  {
+    id: 9,
+    skill: "Git",
+  },
+  {
+    id: 10,
+    skill: "SVN",
+  },
 ];

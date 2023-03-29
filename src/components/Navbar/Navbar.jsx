@@ -6,6 +6,10 @@ import { BsBackspace } from "react-icons/Bs";
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
+  const openResume = () => {
+    window.open("/public/assets/Resume.pdf", "_blank");
+  };
+
   return (
     <nav className="relative mb-3 flex flex-wrap items-center justify-between p-6 text-white">
       <div className="cursor-pointer rounded-sm border-2 border-white p-2 text-center">
@@ -35,7 +39,10 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <button className="ml-10 rounded-md border border-cyan p-2 outline-none transition-all duration-150 ease-linear hover:bg-moonstone hover:text-white focus:outline-none active:bg-pink-600">
+        <button
+          className="ml-10 rounded-md border border-cyan p-2 outline-none transition-all duration-150 ease-linear hover:bg-moonstone hover:text-white focus:outline-none active:bg-pink-600"
+          onClick={openResume}
+        >
           Resume
         </button>
       </div>
@@ -92,7 +99,10 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="m-3 cursor-pointer text-lg"> Resume</li>
+          <li className="m-3 cursor-pointer text-lg" onClick={openResume}>
+            {" "}
+            Resume
+          </li>
           <li className="m-3  cursor-pointer">
             <BsBackspace size={30} onClick={() => setMobileNav(!mobileNav)} />
           </li>

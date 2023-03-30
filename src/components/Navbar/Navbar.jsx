@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useRef, useEffect } from "react";
 import { Link } from "react-scroll";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BsBackspace } from "react-icons/Bs";
@@ -7,8 +7,26 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   const openResume = () => {
-    window.open("/public/assets/Resume.pdf", "_blank");
+    window.open("./public/assets/Resume.pdf", "_blank");
   };
+
+  let mobileNavbarRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        mobileNavbarRef.current &&
+        !mobileNavbarRef.current.contains(event.target)
+      ) {
+        setMobileNav(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [mobileNav]);
 
   return (
     <nav className="relative mb-3 flex flex-wrap items-center justify-between p-6 text-white">
@@ -53,6 +71,7 @@ const Navbar = () => {
             ? "fixed top-0 left-0 z-30 flex h-full w-1/2 flex-col items-center justify-center bg-black duration-300 ease-in-out md:hidden"
             : "fixed left-[-100%]"
         }
+        ref={mobileNavbarRef}
       >
         <ul className="flex list-none flex-col items-center justify-center p-2 text-center">
           <li className="m-3 cursor-pointer text-lg">

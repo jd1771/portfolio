@@ -12,7 +12,7 @@ const Skills = () => {
         <h1 className="title-font mb-4 text-3xl font-medium text-cyan sm:text-4xl">
           Skills &amp; Technologies
         </h1>
-        <p className="mx-auto text-xl leading-relaxed text-white lg:w-3/4 xl:w-2/4">
+        <p className="text-md mx-auto leading-relaxed text-white md:text-xl lg:w-3/4 xl:w-2/4">
           A showcase of my skills and technological expertise, highlighting my
           the range of technical skills I possess, from programming languages
           and frameworks to software applications and database systems.

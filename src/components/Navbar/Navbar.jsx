@@ -7,7 +7,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   const openResume = () => {
-    window.open("./public/assets/Resume.pdf", "_blank");
+    window.open("./assets/Resume.pdf", "_blank");
   };
 
   let mobileNavbarRef = useRef();

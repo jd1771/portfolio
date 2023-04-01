@@ -8,7 +8,7 @@ const Card = (props) => {
       <img
         alt="Project Cover"
         src={props.img}
-        className="h-64 w-full rounded-t-lg object-cover sm:h-80 sm:text-xl"
+        className="object-fit h-64 w-full rounded-t-lg sm:h-80 sm:text-xl"
       />
       <div className="pl-2">
         <h3 className="mt-4 text-lg font-bold text-white sm:text-xl">
@@ -19,16 +19,20 @@ const Card = (props) => {
       </div>
 
       <div className="mb-2 flex items-center justify-center gap-5">
-        <AiFillGithub
-          size={30}
-          onClick={() => window.open("https://www.google.com", "_blank")}
-          cursor="pointer"
-        />
-        <TbDirectionSign
-          size={30}
-          onClick={() => window.open("https://www.google.com", "_blank")}
-          cursor="pointer"
-        />
+        {props.github && (
+          <AiFillGithub
+            size={30}
+            onClick={() => window.open(props.github, "_blank")}
+            cursor="pointer"
+          />
+        )}
+        {props.deployment && (
+          <TbDirectionSign
+            size={30}
+            onClick={() => window.open(props.deployment, "_blank")}
+            cursor="pointer"
+          />
+        )}
       </div>
     </div>
   );

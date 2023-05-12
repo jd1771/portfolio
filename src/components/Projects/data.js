@@ -1,7 +1,7 @@
 export default [
     {
         id: 0,
-        img: "https://res.cloudinary.com/dzl29lmyv/image/upload/v1683862651/xz6shs8sa68gihhxco0j.webp",
+        img: "https://res.cloudinary.com/dzl29lmyv/image/upload/v1683864547/porxdgcshmsoswyhd2wn.png",
         title: "Reelmarks",
         description:
             "ReelMarks is an application that generates timestamps for YouTube videos using AI. With ReelMarks, you can easily generate timestamps for your favorite YouTube videos and podcasts.",
